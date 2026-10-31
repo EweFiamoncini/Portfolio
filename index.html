@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ewerton | Dev Full-Stack</title>
     <link rel="stylesheet" href="css/main.css" />
-    <script src="https://kit.fontawesome.com/4de2ceb680.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/4de2ceb680.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="shortcut icon" href="css/img/favicon.ico" type="image/x-icon" />
   </head>
 
   <body>
     <!-- Navbar -->
     <nav id="navbar">
-
       <!-- Logo -->
       <div class="logo">
         <span>&lt;/&gt;</span> Ewerton <span>Fiamoncini</span>
@@ -34,68 +36,138 @@
       <ul id="nav-links">
         <li><a href="#home" title="Home" data-i18n="nav-home">Home</a></li>
         <li><a href="#sobre" title="About" data-i18n="nav-about">Sobre</a></li>
-        <li><a href="#skills" title="Skills" data-i18n="nav-skills">Habilidades</a></li>
-        <li><a href="#projetos" title="Projects" data-i18n="nav-projects">Projetos</a></li>
-        <button id="language-toggle" title="Language" aria-label="Alternar idioma">EN</button>
-        <button id="dark-mode-toggle" title="Dark/Light Mode" aria-label="Alternar modo escuro">
+        <li>
+          <a href="#skills" title="Skills" data-i18n="nav-skills"
+            >Habilidades</a
+          >
+        </li>
+        <li>
+          <a href="#projetos" title="Projects" data-i18n="nav-projects"
+            >Projetos</a
+          >
+        </li>
+        <li class="lang-dropdown" id="lang-dropdown">
+          <button
+            id="language-toggle"
+            title="Language"
+            aria-haspopup="listbox"
+            aria-expanded="false"
+            aria-label="Selecionar idioma"
+          >
+            <img
+              id="current-flag"
+              src="https://flagcdn.com/w40/br.png"
+              alt=""
+              width="20"
+              height="14"
+            />
+            <span id="current-lang">PT</span>
+            <i class="fa-solid fa-angle-down caret"></i>
+          </button>
+
+          <ul id="lang-menu" role="listbox">
+            <li role="option" data-lang="pt" data-flag="br" data-code="PT">
+              <img
+                src="https://flagcdn.com/w40/br.png"
+                alt=""
+                width="20"
+                height="14"
+              />
+              Português
+            </li>
+            <li role="option" data-lang="en" data-flag="us" data-code="EN">
+              <img
+                src="https://flagcdn.com/w40/us.png"
+                alt=""
+                width="20"
+                height="14"
+              />
+              English
+            </li>
+            <li role="option" data-lang="es" data-flag="es" data-code="ES">
+              <img
+                src="https://flagcdn.com/w40/es.png"
+                alt=""
+                width="20"
+                height="14"
+              />
+              Español
+            </li>
+          </ul>
+        </li>
+        <button
+          id="dark-mode-toggle"
+          title="Dark/Light Mode"
+          aria-label="Alternar modo escuro"
+        >
           ☀️
         </button>
       </ul>
-
     </nav>
     <!-- End of Navbar -->
 
     <!-- Main content -->
     <header id="home">
-
       <!-- Background -->
-      <img class="hero-bg"></img>
+      <img class="hero-bg" />
 
-      <!-- Hero content -->
-      <div class="hero-content animar-entrada">
-        
-        <!-- Greeting and name -->
-        <h2 data-i18n="hero-greeting">
-          Olá, meu nome é
-        </h2>
+      <!-- Container dividido ao meio -->
+      <div class="hero-container">
+        <!-- Lado esquerdo: texto -->
+        <div class="hero-content animar-entrada">
+          <h2 data-i18n="hero-greeting">Olá, meu nome é</h2>
 
-        <h1>
-          <span class="name">Ewerton</span>
-          <span class="surname"> Fiamoncini</span>
-          <span class="surnameTwo"> Anssini</span>
-        </h1>
+          <h1>
+            <span class="name">Ewerton</span>
+            <span class="surname"> Fiamoncini</span>
+            <span class="surnameTwo"> Anssini</span>
+          </h1>
 
-        <!-- Typing effect -->
-        <p id="typing-container">
-          <span id="typing-text">Engenheiro de Software | Apaixonado por café e código.</span><span id="cursor">|</span>
-        </p>
-        
-        <!-- Resume to action button -->
-        <a href="https://docs.google.com/document/d/1SoMZ5R4SLQrzpXea1j3KbTEijebVNRO_9MhpCp2eN5U/edit?usp=sharing" title="Resume" target="_blank" class="btn" data-i18n="btn-resume"> Currículo </a>
+          <p id="typing-container">
+            <span id="typing-text"
+              >Engenheiro de Software | Apaixonado por café e código.</span
+            ><span id="cursor">|</span>
+          </p>
 
+          <a
+            href="https://docs.google.com/document/d/1SoMZ5R4SLQrzpXea1j3KbTEijebVNRO_9MhpCp2eN5U/edit?usp=sharing"
+            title="Resume"
+            target="_blank"
+            class="btn"
+            data-i18n="btn-resume"
+          >
+            Currículo
+          </a>
+        </div>
+
+        <!-- Lado direito: card com foto -->
+        <div class="hero-profile animar-entrada">
+          <div class="profile-card">
+            <img
+              src="css/img/perfil.png"
+              alt="Foto de Ewerton Fiamoncini"
+              class="profile-img"
+            />
+          </div>
+        </div>
       </div>
 
-      <!-- Icon scroll down arrow -->
+      <!-- Seta de scroll -->
       <div class="scroll-arrow">
-        <a href="#sobre" title="Scrool down" class="fa-solid fa-angle-down"></a>
+        <a href="#sobre" title="Scroll down" class="fa-solid fa-angle-down"></a>
       </div>
-
-    </header>
+    </header> 
     <!-- End of main content -->
 
     <!-- Section about me  -->
     <section id="sobre">
-      
       <h2 data-i18n="about-title">Sobre Mim</h2>
-      <p data-i18n="about-text">
-      </p>
-      
+      <p data-i18n="about-text"></p>
     </section>
     <!-- End of about me section -->
 
     <!-- Section Skills -->
     <section id="skills">
-      
       <h2 data-i18n="skills-title">Minhas Techs</h2>
       <div class="skills-grid">
         <div class="skill-card">
@@ -114,13 +186,11 @@
           <img src="https://skillicons.dev/icons?i=git" title="GIT" />
         </div>
       </div>
-    
     </section>
     <!-- End of Skills Section -->
 
     <!-- Projects Section -->
     <section id="projetos">
-      
       <h2 data-i18n="projects-title">Projetos Recentes</h2>
       <div class="project-container" id="github-projects">
         <p>Carregando projetos...</p>
@@ -129,7 +199,8 @@
     <!-- End of Projects Section -->
 
     <!-- Footer -->
-    <footer data-i18n="footer-text">&copy;2026 - Desenvolvido por <strong>Ewerton Fiamoncini Anssini</strong>
+    <footer data-i18n="footer-text">
+      &copy;2026 - Desenvolvido por <strong>Ewerton Fiamoncini Anssini</strong>
     </footer>
     <!-- End of Footer -->
 

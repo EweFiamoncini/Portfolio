@@ -1,5 +1,6 @@
 export const translations = {
-  en: { 'nav-home': 'Home',
+  en: {
+    'nav-home': 'Home',
     'nav-about': 'About',
     'nav-skills': 'Skills',
     'nav-projects': 'Projects',
@@ -9,7 +10,7 @@ export const translations = {
     'btn-resume-link': 'https://docs.google.com/document/d/18UVU4dYYdYSf8CCIrEJxo86_pbNHFeDcLqMGQlDERak/edit?usp=sharing',
     'about-title': 'About Me',
     'about-text':
-      'My name is <strong>Ewerton Fiamoncini Anssini</strong>, I am <strong>26 years old</strong>. I am a technology enthusiast and passionate about software development. I also enjoy coffee, music, and traveling with my family, which helps me maintain creativity and balance in life. <br /><br /> I am a developer <strong>focused on transforming ideas into modern, functional, and well-structured digital experiences</strong>. My foundation is built on essential web technologies like <strong>HTML, CSS, and JavaScript</strong>, always seeking to create clean, responsive, and intuitive interfaces. My goal is to develop projects that not only work well but also convey professionalism and attention to detail. <br /><br /> I am currently studying <strong>Software Engineering</strong> and expanding my studies from Front-end to Back-end through <strong>Java</strong>. <br /><br /> I have a great interest in <strong>constant evolution</strong>, following trends and improving my skills to deliver increasingly efficient solutions. I value <strong>organized code</strong>, good practices, and user experience as fundamental pillars in every project I build. <br /><br /> This portfolio represents not only my work but also my <strong>dedication, discipline, and vision for growth in the technology field</strong>. I am always <strong>open to new challenges and opportunities</strong> that allow me to learn, evolve, and create impact through development.',
+      'My name is <strong>Ewerton Fiamoncini Anssini</strong>, I am <strong>27 years old</strong>. I am a technology enthusiast and passionate about software development. I also enjoy coffee, music, and traveling with my family, which helps me maintain creativity and balance in life. <br /><br /> I am a developer <strong>focused on transforming ideas into modern, functional, and well-structured digital experiences</strong>. My foundation is built on essential web technologies like <strong>HTML, CSS, and JavaScript</strong>, always seeking to create clean, responsive, and intuitive interfaces. My goal is to develop projects that not only work well but also convey professionalism and attention to detail. <br /><br /> I am currently studying <strong>Software Engineering</strong> and expanding my studies from Front-end to Back-end through <strong>Java</strong>. <br /><br /> I have a great interest in <strong>constant evolution</strong>, following trends and improving my skills to deliver increasingly efficient solutions. I value <strong>organized code</strong>, good practices, and user experience as fundamental pillars in every project I build. <br /><br /> This portfolio represents not only my work but also my <strong>dedication, discipline, and vision for growth in the technology field</strong>. I am always <strong>open to new challenges and opportunities</strong> that allow me to learn, evolve, and create impact through development.',
     'skills-title': 'My Techs',
     'projects-title': 'Recent Projects',
     'view-repo': 'Repository',
@@ -22,7 +23,8 @@ export const translations = {
     ],
   },
 
-  pt: { 'nav-home': 'Home',
+  pt: {
+    'nav-home': 'Home',
     'nav-about': 'Sobre',
     'nav-skills': 'Habilidades',
     'nav-projects': 'Projetos',
@@ -32,7 +34,7 @@ export const translations = {
     'btn-resume-link': 'https://docs.google.com/document/d/1SoMZ5R4SLQrzpXea1j3KbTEijebVNRO_9MhpCp2eN5U/edit?usp=sharing',
     'about-title': 'Sobre Mim',
     'about-text':
-      'Me chamo <strong>Ewerton Fiamoncini Anssini</strong>, tenho <strong>26 anos de idade</strong>. Sou um entusiasta da tecnologia e apaixonado por desenvolvimento de software. Gosto também de café, música e viagens com a família, o que me ajuda a manter a criatividade e o equilíbrio na vida. <br /><br /> Sou um desenvolvedor <strong>focado em transformar ideias em experiências digitais modernas, funcionais e bem estruturadas</strong>. Tenho como base as tecnologias essenciais da web, como <strong>HTML, CSS e JavaScript</strong>, sempre buscando criar interfaces limpas, responsivas e intuitivas. Meu objetivo é desenvolver projetos que não apenas funcionem bem, mas que também transmitam profissionalismo e atenção aos detalhes. <br /><br /> Atualmente estou cursando <strong>Engenharia de Software</strong> e expandindo meus estudos do Front-end para o Back-end através do <strong>Java</strong>. <br /><br /> Tenho grande interesse em <strong>evolução constante</strong>, acompanhando tendências e aprimorando minhas habilidades para entregar soluções cada vez mais eficientes. Valorizo <strong>código organizado</strong>, boas práticas e a experiência do usuário como pilares fundamentais em cada projeto que construo. <br /><br /> Este portfólio representa não apenas meus trabalhos, mas também minha <strong>dedicação, disciplina e visão de crescimento na área da tecnologia</strong>. Estou sempre <strong>aberto a novos desafios e oportunidades</strong> que me permitam aprender, evoluir e gerar impacto através do desenvolvimento.',
+      'Me chamo <strong>Ewerton Fiamoncini Anssini</strong>, tenho <strong>27 anos de idade</strong>. Sou um entusiasta da tecnologia e apaixonado por desenvolvimento de software. Gosto também de café, música e viagens com a família, o que me ajuda a manter a criatividade e o equilíbrio na vida. <br /><br /> Sou um desenvolvedor <strong>focado em transformar ideias em experiências digitais modernas, funcionais e bem estruturadas</strong>. Tenho como base as tecnologias essenciais da web, como <strong>HTML, CSS e JavaScript</strong>, sempre buscando criar interfaces limpas, responsivas e intuitivas. Meu objetivo é desenvolver projetos que não apenas funcionem bem, mas que também transmitam profissionalismo e atenção aos detalhes. <br /><br /> Atualmente estou cursando <strong>Engenharia de Software</strong> e expandindo meus estudos do Front-end para o Back-end através do <strong>Java</strong>. <br /><br /> Tenho grande interesse em <strong>evolução constante</strong>, acompanhando tendências e aprimorando minhas habilidades para entregar soluções cada vez mais eficientes. Valorizo <strong>código organizado</strong>, boas práticas e a experiência do usuário como pilares fundamentais em cada projeto que construo. <br /><br /> Este portfólio representa não apenas meus trabalhos, mas também minha <strong>dedicação, disciplina e visão de crescimento na área da tecnologia</strong>. Estou sempre <strong>aberto a novos desafios e oportunidades</strong> que me permitam aprender, evoluir e gerar impacto através do desenvolvimento.',
     'skills-title': 'Minhas Techs',
     'projects-title': 'Projetos Recentes',
     'view-repo': 'Repositório',
@@ -42,6 +44,30 @@ export const translations = {
     'typing-texts': [
       'Engenheiro de Software | Apaixonado por café e código.',
       'Seja bem vindo(a) ao meu portfólio, é um prazer ter você aqui!',
+    ],
+  },
+
+  es: {
+    'nav-home': 'Inicio',
+    'nav-about': 'Sobre mí',
+    'nav-skills': 'Habilidades',
+    'nav-projects': 'Proyectos',
+    'hero-greeting':
+      'Hola, mi nombre es',
+    'btn-resume': 'Currículum',
+    'btn-resume-link': 'https://docs.google.com/document/d/18UVU4dYYdYSf8CCIrEJxo86_pbNHFeDcLqMGQlDERak/edit?usp=sharing',
+    'about-title': 'Sobre Mí',
+    'about-text':
+      'Me llamo <strong>Ewerton Fiamoncini Anssini</strong>, tengo <strong>27 años de edad</strong>. Soy un entusiasta de la tecnología y apasionado por el desarrollo de software. También disfruto del café, la música y los viajes con mi familia, lo que me ayuda a mantener la creatividad y el equilibrio en la vida. <br /><br /> Soy un desarrollador <strong>enfocado en transformar ideas en experiencias digitales modernas, funcionales y bien estructuradas</strong>. Mi base son las tecnologías esenciales de la web, como <strong>HTML, CSS y JavaScript</strong>, siempre buscando crear interfaces limpias, responsivas e intuitivas. Mi objetivo es desarrollar proyectos que no solo funcionen bien, sino que también transmitan profesionalismo y atención al detalle. <br /><br /> Actualmente estoy cursando <strong>Ingeniería de Software</strong> y ampliando mis estudios del Front-end al Back-end a través de <strong>Java</strong>. <br /><br /> Tengo un gran interés en la <strong>evolución constante</strong>, siguiendo las tendencias y mejorando mis habilidades para entregar soluciones cada vez más eficientes. Valoro el <strong>código organizado</strong>, las buenas prácticas y la experiencia del usuario como pilares fundamentales en cada proyecto que construyo. <br /><br /> Este portafolio representa no solo mis trabajos, sino también mi <strong>dedicación, disciplina y visión de crecimiento en el área de la tecnología</strong>. Siempre estoy <strong>abierto a nuevos desafíos y oportunidades</strong> que me permitan aprender, evolucionar y generar impacto a través del desarrollo.',
+    'skills-title': 'Mis Techs',
+    'projects-title': 'Proyectos Recientes',
+    'view-repo': 'Repositorio',
+    'view-online': 'En línea',
+    'footer-text':
+      '&copy;2026 - Desarrollado por <strong>Ewerton Fiamoncini Anssini</strong>',
+    'typing-texts': [
+      'Ingeniero de Software | Apasionado por el café y el código.',
+      '¡Bienvenido(a) a mi portafolio, es un placer tenerte aquí!',
     ],
   },
 };
