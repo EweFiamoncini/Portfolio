@@ -19,4 +19,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://ewefiamoncini.github.io/Portfolio/sitemap.xml
+Sitemap: https://ewefiamoncini.vercel.app/sitemap.xml
