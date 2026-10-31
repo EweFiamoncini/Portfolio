@@ -19,4 +19,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://SEU-DOMINIO.com.br/sitemap.xml
+Sitemap: https://ewefiamoncini.github.io/Portfolio/sitemap.xml
