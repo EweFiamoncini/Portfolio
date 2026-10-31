@@ -18,7 +18,7 @@ export const translations = {
     'footer-text':
       '&copy; 2026 - Developed by <strong>Ewerton Fiamoncini Anssini</strong>',
     'typing-texts': [
-      'Software Engineer | Passionate about coffee and code.',
+      'Software Engineer | Code, Innovation and Technology.',
       "Welcome to my portfolio! It's a pleasure to have you here!",
     ],
   },
@@ -42,7 +42,7 @@ export const translations = {
     'footer-text':
       '&copy; 2026 - Desenvolvido por <strong>Ewerton Fiamoncini Anssini</strong>',
     'typing-texts': [
-      'Engenheiro de Software | Apaixonado por café e código.',
+      'Engenheiro de Software | Código, Inovação e Tecnologia.',
       'Seja bem-vindo(a) ao meu portfólio, é um prazer ter você aqui!',
     ],
   },
@@ -66,7 +66,7 @@ export const translations = {
     'footer-text':
       '&copy; 2026 - Desarrollado por <strong>Ewerton Fiamoncini Anssini</strong>',
     'typing-texts': [
-      'Ingeniero de Software | Apasionado por el café y el código.',
+      'Ingeniero de Software | Código, Innovación y Tecnología.',
       '¡Bienvenido(a) a mi portafolio, es un placer tenerte aquí!',
     ],
   },
