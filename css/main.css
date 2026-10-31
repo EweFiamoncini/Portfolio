@@ -584,6 +584,7 @@ body.light-mode .hero-content h1 {
   font-size: clamp(0.9rem, 1.6vw, 1.05rem);
   line-height: 1.7;
   text-align: left;
+  height: 50px;
 }
 
 #cursor {
@@ -1455,8 +1456,8 @@ footer strong:hover {
 @media (max-width: 780px) {
   .hero-container {
     grid-template-columns: 1fr;
-    gap: 2rem;
-    padding: 6.5rem 1.5rem 4.5rem;
+    gap: 1rem;
+    padding: 6.5rem 1rem 5rem;
     text-align: center;
   }
 
@@ -1465,7 +1466,7 @@ footer strong:hover {
   }
 
   .profile-card {
-    max-width: 220px;
+    max-width: 320px;
   }
 
   .hero-content,
