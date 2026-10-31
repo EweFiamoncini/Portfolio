@@ -1,0 +1,15 @@
+# Ewerton Fiamoncini Anssini
+
+> Engenheiro de software e desenvolvedor full-stack. Este site é o portfólio profissional, disponível em português, inglês e espanhol.
+
+## Resumo
+
+- Nome: Ewerton Fiamoncini Anssini
+- Função: Engenheiro de Software Full-Stack
+- Tecnologias: HTML5, CSS3, JavaScript, TypeScript, Node.js, Git (Java em estudo)
+- Idiomas do site: pt-BR, en, es
+
+## Links
+
+- [Portfólio](https://ewefiamoncini.github.io/Portfolio/): apresentação, tecnologias e projetos recentes
+- [Currículo](https://docs.google.com/document/d/1SoMZ5R4SLQrzpXea1j3KbTEijebVNRO_9MhpCp2eN5U/edit?usp=sharing): experiência e formação
