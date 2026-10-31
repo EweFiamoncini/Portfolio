@@ -859,7 +859,9 @@ section:not(#home) h2:hover::after {
     transform 0.5s var(--ease-spring),
     border-color 0.4s ease,
     box-shadow 0.4s ease,
-    background-color 0.4s ease;
+    background-color 0.4s ease,
+    opacity 0.3s ease,
+    filter 0.3s ease;
 }
 
 .skill-card::before {
@@ -902,15 +904,13 @@ section:not(#home) h2:hover::after {
   filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.35));
 }
 
-.skills-grid:hover .skill-card:not(:hover) {
+/* Esmaece todos quando algum card está em hover */
+.skills-grid:has(.skill-card:hover) .skill-card:not(:hover) {
   opacity: 0.55;
   filter: saturate(0.6);
 }
 
-.skill-card {
-  transition-property: transform, border-color, box-shadow, background-color, opacity, filter;
-}
-
+/* Variante "study" */
 .skill-card.study {
   border-bottom-color: #f39c12;
 }
@@ -988,7 +988,6 @@ section:not(#home) h2:hover::after {
   -webkit-mask:
     linear-gradient(#000 0 0) content-box,
     linear-gradient(#000 0 0);
-  -webkit-mask-composite: xor;
   mask:
     linear-gradient(#000 0 0) content-box exclude,
     linear-gradient(#000 0 0);
@@ -1010,7 +1009,7 @@ section:not(#home) h2:hover::after {
   opacity: 1;
 }
 
-.project-container:hover .project-card:not(:hover) {
+.project-container:has(.project-card:hover) .project-card:not(:hover) {
   opacity: 0.6;
   filter: blur(0.6px) saturate(0.8);
 }
