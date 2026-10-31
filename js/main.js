@@ -5,12 +5,14 @@ import { initTyping } from './typing.js';
 import { initScroll } from './scroll.js';
 import { translations } from './translations.js';
 import { loadGitHubProjects } from './github.js';
+import { initReveal } from './reveal.js';
 
 function init() {
+  initReveal();
   initMenu();
   initTheme();
   initScroll();
-  initTyping([]); 
+  initTyping([]);
   initLanguage();
   loadGitHubProjects('EweFiamoncini');
 }

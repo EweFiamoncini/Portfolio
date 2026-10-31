@@ -1,5 +1,6 @@
 import { translations } from './translations.js';
 import { currentLanguage } from './i18n.js';
+import { initReveal } from './reveal.js';
 
 const getLanguageIcon = (lang) => {
   const icons = {
@@ -21,14 +22,14 @@ export async function loadGitHubProjects(username) {
   try {
     // Busca repositórios públicos ordenados por atualização
     const response = await fetch(`https://api.github.com/users/${username}/repos?sort=updated&per_page=10`);
-    
+
     if (!response.ok) throw new Error('Erro ao carregar dados do GitHub');
 
     const repos = await response.json();
 
     container.innerHTML = repos
-      .filter(repo => !repo.fork && repo.description) 
-      .slice(0, 6) 
+      .filter(repo => !repo.fork && repo.description)
+      .slice(0, 6)
       .map(repo => {
         return `
           <div class="project-card">
@@ -51,6 +52,9 @@ export async function loadGitHubProjects(username) {
         `;
       })
       .join('');
+
+    // Anima os cards recém-criados
+    initReveal(container);
 
   } catch (error) {
     console.error('GitHub API Error:', error);
